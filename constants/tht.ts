@@ -6,8 +6,18 @@ export const NAV_LINKS = [
     key: "plans",
     label: "Plans",
     subMenu: [
-      { href: "/corporate-msmes", key: "corporate-msmes", label: "Corporates & MSMEs", desc: "Comprehensive healthcare plans for all types of organisations." },
-      { href: "/individuals", key: "individuals", label: "Individuals", desc: "Tailor made individual plans covering primary, secondary and tertiary health care." },
+      {
+        href: "/corporate-msmes",
+        key: "corporate-msmes",
+        label: "Corporates & MSMEs",
+        desc: "Comprehensive healthcare plans for all types of organisations."
+      },
+      {
+        href: "/individuals",
+        key: "individuals",
+        label: "Individuals",
+        desc: "Tailor made individual plans covering primary, secondary and tertiary health care."
+      },
     ]
   },
   {
@@ -15,9 +25,24 @@ export const NAV_LINKS = [
     key: "wellness",
     label: "Wellness",
     subMenu: [
-      { href: "/wellness", key: "wellness-overview", label: "Wellness", desc: "Bespoke well-being solutions tailored to your employees' wellness needs." },
-      { href: "/gym-list", key: "gym-list", label: "Gym List", desc: "" },
-      { href: "/book-session", key: "book-session", label: "Book a Session", desc: "" },
+      {
+        href: "/wellness",
+        key: "wellness-overview",
+        label: "Wellness",
+        desc: "Bespoke well-being solutions tailored to your employees' wellness needs."
+      },
+      {
+        href: "/gym-list",
+        key: "gym-list",
+        label: "Gym List",
+        desc: ""
+      },
+      {
+        href: "/book-session",
+        key: "book-session",
+        label: "Book a Session",
+        desc: ""
+      },
     ]
   },
   {
@@ -25,9 +50,24 @@ export const NAV_LINKS = [
     key: "provider-network",
     label: "Provider Network",
     subMenu: [
-      { href: "/provider-network", key: "provider-network-overview", label: "Provider Network", desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria." },
-      { href: "/find-provider", key: "find-provider", label: "Find a Provider", desc: "" },
-      { href: "/join-provider-network", key: "join-provider-network", label: "Join our Provider Network", desc: "" },
+      {
+        href: "/provider-network",
+        key: "provider-network-overview",
+        label: "Provider Network",
+        desc: "THT is in partnership with 1500+ healthcare professionals and world-class providers of health-related services in Nigeria."
+      },
+      {
+        href: "/find-provider",
+        key: "find-provider",
+        label: "Find a Provider",
+        desc: ""
+      },
+      {
+        href: "/join-provider-network",
+        key: "join-provider-network",
+        label: "Join our Provider Network",
+        desc: ""
+      },
     ]
   },
   { href: "/blog", key: "blog", label: "Blog" },

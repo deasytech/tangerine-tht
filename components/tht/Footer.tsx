@@ -45,7 +45,7 @@ const Footer = () => {
               <FooterColumn title={columns.title} key={index}>
                 <ul className="regular-12 !font-gilroy-light flex flex-col gap-2 text-gray-800">
                   {columns.links.map((link) => (
-                    <Link href={link.href} key={link.href}>
+                    <Link href={link.href} key={link.name}>
                       {link.name}
                     </Link>
                   ))}
