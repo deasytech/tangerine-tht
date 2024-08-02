@@ -9,10 +9,18 @@ export interface ParamsProps {
 }
 
 export interface SearchParamsProps {
-  searchParams: { [key: string]: string | undefined };
+  searchParams: { [ key: string ]: string | undefined };
 }
 
 export interface URLProps {
   params: { id: string };
-  searchParams: { [key: string]: string | undefined };
+  searchParams: { [ key: string ]: string | undefined };
+}
+
+export interface TeamMembersProps {
+  image: string;
+  name: string;
+  position: string;
+  mainImage?: string;
+  bio?: string;
 }

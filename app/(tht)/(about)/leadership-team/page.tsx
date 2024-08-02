@@ -9,10 +9,8 @@ const LeadershipTeamPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {DIRECTORS.map((team) =>
             <TeamCard
-              key={team.name}
-              image={team.image}
-              name={team.name}
-              position={team.position}
+              key={team?.name}
+              member={{ ...team }}
               width={384}
               height={372}
             />
@@ -25,9 +23,7 @@ const LeadershipTeamPage = () => {
           {MANAGEMENT.map((team) =>
             <TeamCard
               key={team.name}
-              image={team.image}
-              name={team.name}
-              position={team.position}
+              member={{ ...team }}
             />
           )}
         </div>

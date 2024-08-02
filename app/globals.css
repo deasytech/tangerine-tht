@@ -213,6 +213,13 @@ body {
     @apply text-[16px] font-[400] text-generic-950 leading-[145%] font-gilroy-regular;
   }
 
+  .team p {
+    @apply text-sm font-gilroy-regular leading-5 text-generic-950 mb-2;
+  }
+  .team a {
+    @apply text-orange-base hover:underline;
+  }
+
   .bg-br-position {
     background-position: bottom right;
     background-size: contain;

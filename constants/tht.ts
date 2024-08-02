@@ -82,6 +82,15 @@ export const SLIDES = [
   "/images/tht/slides/slide-5.png",
 ];
 
+export const ABOUT_US_SLIDES = [
+  "/images/tht/slides/about-1.png",
+  "/images/tht/slides/about-2.png",
+  "/images/tht/slides/about-3.png",
+  "/images/tht/slides/about-4.png",
+  "/images/tht/slides/about-5.png",
+  "/images/tht/slides/about-6.png",
+];
+
 // FEATURES SECTION
 export const PRESS = [
   {
@@ -470,33 +479,45 @@ export const GYM_LIST = [
 export const DIRECTORS = [
   {
     image: "/images/tht/team/rotimi.png",
+    mainImage: "/images/tht/team/rotimi.png",
     name: "Rotimi Okpaise",
     position: "Ag. Board Chair",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/lola.png",
+    mainImage: "/images/tht/team/cardoso_big.png",
     name: "Lola Cardoso",
     position: "Group Chief Executive Officer",
+    bio: `<p>Lola Cardoso is the Group Chief Executive Officer for Tangerine<br />She is a Strategic Board Advisor who enhances governance, clarity and insight to CEOs/Executive management teams.</p><p>Lola holds a BBA in Finance and Business Economics from Ohio University and an MBA in Strategy, General Management, and Organization Behaviour from the University of Michigan, Stephen M. Ross School of Business.</p><p>She is an influential and innovative C-suite Executive and Non-Executive Director with 25 years of experience driving transformative revenue growth, spearheading business change and strengthening governance, oversight and planning for global organisations.</p><p>As the Head of Group Corporate Strategy for Union Bank, she shaped its strategy and drove execution to achieve its ambition. In addition to the overall corporate strategy, she also led the bank's innovation and sustainability efforts.</p><p>Before this, Lola was the Director of Strategic Planning at A.T. Kearney. She was a trusted advisor to prestigious Fortune Global 500 companies, focused on their strategic growth objectives and led multiple client-facing teams to deliver concrete outcomes.</p><p>Lola also had an early career in investment banking as a Strategy Consultant at Dupont and an Investment Banking Analyst at Lehman Brothers and Citigroup (Salomon Smith Barney).</p><p>She has a robust skill set that includes team management, team building, programme governance, Large-scale Management, and digital transformation.</p><p><a href="https://shorturl.at/gjlP8" target="_blank">Connect with Lola here</a></p>`,
   },
   {
     image: "/images/tht/team/tonye.png",
+    mainImage: "/images/tht/team/tonye.png",
     name: "Tonye Ukpong",
     position: "Managing Director",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/wale.png",
+    mainImage: "/images/tht/team/wale.png",
     name: "Wale Odusanya",
     position: "Non-Executive Director",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/ademayowa.png",
+    mainImage: "/images/tht/team/ademayowa_big.png",
     name: "Ademayowa Adeduro",
     position: "Non-Executive Director",
+    bio: `<p>Ademayowa Adeduro is the Managing Director/CEO of Tangerine General. He has over twenty-five years of experience in insurance.</p><p>He started his career at the African General Insurance Brokers in 1993 and in 1996 joined the Continental Reinsurance Company Limited (now Plc) where he gained significant experience in reinsurance operations at the Technical Division of the Company and was eventually promoted to the position of Assistant Manager/Head of Facultative Insurance, handling different insurance portfolios within Africa and Asia.</p><p>At the commencement of Universal Banking, he joined the services of Liberty Bank Plc to set up an insurance desk for the bank while also acting as the Deputy Head of General Internal Services. He subsequently moved to Standard Alliance Insurance Plc and Law Union & Rock Insurance Plc (now Tangerine General).</p><p>He is an Associate of the Chartered Insurance Institute of Nigeria and an Associate of the Chartered Institute of Taxation Nigeria, amongst others. He holds a B. SC in Insurance form the University of Lagos and an MBA from Obafemi Awolowo University.</p>`,
   },
   {
     image: "/images/tht/team/toyin.png",
+    mainImage: "/images/tht/team/deinde_big.png",
     name: "Toyin Deinde",
     position: "Chief Operating Officer",
+    bio: `<p>Toyin Deinde is the Chief Operating Officer of Total Health Trust.</p><p>He is a healthcare business executive passionate about the commercial process and helps teams achieve corporate growth through tested strategies adapted to the local scenario.</p><p>Toyin holds a Master's degree in Business Administration and General Management from the Business School Netherlands and a BSc from the University of Agriculture, Abeokuta.</p><p>He has over 20 years of experience in sales, distribution and client engagement within the health sector.</p><p>Before joining THT, he was Sanofi's District Sales Manager and Ranbaxy's Regional Sales Manager.</p><p>Toyin Deinde is skilled in Sales and Marketing, Stakeholder Management and Sales Force Automation Systems.</p><p>He is a fellow of the Institute of Healthcare Finance and Management</p><p><a href="https://shorturl.at/adfp0" target="_blank">Connect with Toyin here</a></p>`,
   },
 ];
 
@@ -505,56 +526,68 @@ export const MANAGEMENT = [
     image: "/images/tht/team/ukpong.png",
     name: "Tonye Ukpong",
     position: "Managing Director",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/deinde.png",
+    mainImage: "/images/tht/team/deinde_big.png",
     name: "Toyin Deinde",
     position: "Chief Operating Officer",
+    bio: `<p>Toyin Deinde is the Chief Operating Officer of Total Health Trust.</p><p>He is a healthcare business executive passionate about the commercial process and helps teams achieve corporate growth through tested strategies adapted to the local scenario.</p><p>Toyin holds a Master's degree in Business Administration and General Management from the Business School Netherlands and a BSc from the University of Agriculture, Abeokuta.</p><p>He has over 20 years of experience in sales, distribution and client engagement within the health sector.</p><p>Before joining THT, he was Sanofi's District Sales Manager and Ranbaxy's Regional Sales Manager.</p><p>Toyin Deinde is skilled in Sales and Marketing, Stakeholder Management and Sales Force Automation Systems.</p><p>He is a fellow of the Institute of Healthcare Finance and Management</p><p><a href="https://shorturl.at/adfp0" target="_blank">Connect with Toyin here</a></p>`,
   },
   {
     image: "/images/tht/team/sobade.png",
     name: "Abimbola Sobade",
     position: "Internal Audit and Control",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/buraimoh.png",
     name: "Olanrewaju Buraimoh",
     position: "Finance",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/abejide.png",
     name: "Eyitayo Abejide",
     position: "Medical Services",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/adelusi.png",
     name: "Abiola Adelusi",
     position: "Membership and Underwriting",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/mong.png",
     name: "Dr. Rose Mong",
     position: "Branch Operations",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/mosuro.png",
     name: "Abiola Mosuro",
     position: "Human Resources",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/adeyoola.png",
     name: "Babatunde Adeyoola",
     position: "Risk Management",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/aluko.png",
     name: "Omalara Aluko",
     position: "Marketing and Branding",
+    bio: `<p>Not available</p>`,
   },
   {
     image: "/images/tht/team/megbope.png",
     name: "Oyebimpe Megbope",
     position: "Legal and Compliance",
+    bio: `<p>Not available</p>`,
   },
 ];
 
