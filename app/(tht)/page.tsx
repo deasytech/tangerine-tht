@@ -2,49 +2,89 @@ import Link from 'next/link'
 import { ArrowRight, Heart, LinkIcon, MessageCircle } from 'lucide-react'
 import Slider from '@/components/tht/Slider'
 import AwardSection from '@/components/tht/AwardSection'
+import Image from 'next/image'
 
 const TangHealthPage = () => {
   return (
     <>
       <Slider />
 
-      <section className="relative w-full min-h-[481px] bg-cover bg-center mt-11" style={{
-        backgroundImage: "url('/images/tht/city-scape.svg')",
-        overflow: 'hidden',
-      }}>
-        <div className="h-full flex flex-col justify-start items-center mt-6 w-full gap-6">
-          <h1 className="bold-32 lg:bold-56 items-center text-center text-blue-950 w-full md:w-2/3">
+      <section className="relative max-container padding-container mt-11 mb-12">
+        <div className="flex flex-col items-center md:flex-row gap-6">
+          <h1 className="bold-32 lg:bold-56 items-start text-blue-950 w-full md:w-2/3 text-wrap md:pr-20">
             Access to Comprehensive and robust healthcare is what we do
           </h1>
-          <p className="regular-24 text-center text-blue-950 w-full p-4 md:p-0 md:w-1/2">
-            We are the preferred and trusted health insurance and well-being partner to over 400 multinationals, large local corporates, MSMEs and individuals.
-          </p>
+          <div className="w-full md:w-1/4 flex-1">
+            <p className="w-full text-2xl text-generic-950 leading-8 mb-3">We are the preferred and trusted health insurance and well-being partner to over 400 multinationals, large local corporate, MSMEs and individuals.</p>
+            <div className="bg-orange-50 rounded-xl flex items-center gap-5 p-6">
+              <Image src="/images/tht/users.png" alt="enrollees" width={112} height={48} className="object-contain" />
+              <div className="space-y-1">
+                <h4 className="text-orange-base font-semibold text-2xl">240,000+</h4>
+                <p className="text-generic-950 text-base font-normal">Enrollees</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="relative flex w-full items-center justify-center min-h-[624px] bg-blue-950 -mt-3" style={{
-        backgroundImage: "url('/images/tht/white-rope.svg')",
-        backgroundPosition: "center center",
-        backgroundSize: "auto",
-        backgroundRepeat: "no-repeat",
-        overflow: 'hidden',
-      }}>
-        <div className="relative h-full bg-white min-h-[372px] px-12 py-16 max-w-3xl rounded-3xl flex flex-col justify-center items-center gap-6 mx-10">
-          <h5 className='absolute px-4 py-2 border border-generic-800 rounded-full -top-4 w-fit small-medium uppercase text-blue-950 bg-white'>Who we are</h5>
-          <p className='text-center regular-20 text-blue-950'>Total Health Trust (THT), a Tangerine company is the foremost Health Maintenance organisation (HMO) with 26 years of experience providing in-and-out-of-country healthcare access and wellness services. The brand leverages expertise and technology in delivering world-class healthcare and wellness user experiences.</p>
-          <Link href="/about" className="flex items-center gap-2 rounded-lg btn_dark_orange w-fit">
-            <span>Learn more</span>
-            <ArrowRight size={18} />
-          </Link>
+      <section className="relative max-container padding-container mt-11 mb-12">
+        <div className="flex flex-col items-center md:flex-row gap-8 bg-blue-950 text-white p-8 rounded-3xl">
+          <Image src="/images/tht/home-wwa.png" alt="who we are" width={456} height={384} className="w-full object-cover" />
+          <div className="flex flex-col gap-4 p-8">
+            <h3 className="bold-40">Who we are</h3>
+            <p className="text-xl"> Total Health Trust (THT), a Tangerine company is the foremost Health Maintenance organisation (HMO) with 26 years of experience providing in-and-out-of-country healthcare access and wellness services. The brand leverages expertise and technology in delivering world-class healthcare and wellness user experiences.</p>
+          </div>
         </div>
       </section>
 
-      <AwardSection />
+      <section className="relative max-container padding-container">
+        <div className="flex flex-col md:flex-row gap-8 mb-8">
+          <div className='bg-orange-base text-white flex flex-col p-8 w-full rounded-3xl gap-2'>
+            <h4 className='bold-36'>Mission</h4>
+            <p className='regular-20'>To help people access excellent healthcare services through robust health plans.</p>
+          </div>
+          <div className='bg-blue-50 flex flex-col p-8 w-full rounded-3xl gap-2'>
+            <h4 className='bold-32 text-blue-950'>Vision</h4>
+            <p className='regular-20 text-generic-950'>To be the provider of choice in Africa for comprehensive health insurance solutions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className='relative max-container padding-container mt-16'>
+        <div className="flex flex-col md:flex-row gap-8 mb-8">
+          <Image src="/images/tht/award-photo.png" alt="award" width={598} height={316} className="w-full object-cover" />
+          <div className='bg-orange-base flex items-center justify-center p-8 w-full rounded-3xl gap-8'>
+            <Image src="/images/tht/award.svg" alt="award" width={119} height={101} />
+            <div className='flex flex-col gap-4'>
+              <p className='regular-18 !leading-7 !font-gilroy-medium text-white'>4-time winner</p>
+              <p className='bold-36 text-white'>NHEA HMO of the Year Award.</p>
+            </div>
+          </div>
+        </div>
+        <div className='bg-blue-50 w-full flex flex-col md:flex-row rounded-2xl p-4 gap-4'>
+          <div className='w-full bg-white flex flex-col px-6 py-10 justify-center rounded-2xl'>
+            <p className='bold-40 text-blue-950'>240,000+</p>
+            <p className='regular-16 text-generic-950'>Enrollees</p>
+          </div>
+          <div className='w-full bg-white flex flex-col px-6 py-10 justify-center rounded-2xl'>
+            <p className='bold-40 text-blue-950'>186+</p>
+            <p className='regular-16 text-generic-950'>Staff strength</p>
+          </div>
+          <div className='w-full bg-white flex flex-col px-6 py-10 justify-center rounded-2xl'>
+            <p className='bold-40 text-blue-950'>9</p>
+            <p className='regular-16 text-generic-950'>Locations across Nigeria</p>
+          </div>
+          <div className='w-full bg-white flex flex-col px-6 py-10 justify-center rounded-2xl'>
+            <p className='bold-40 text-blue-950'>1700+</p>
+            <p className='regular-16 text-generic-950'>Provider network</p>
+          </div>
+        </div>
+      </section>
 
       <section className="relative max-container padding-container mt-20">
         <div className="mb-14 flex flex-col gap-4 px-10">
           <h2 className="bold-40 text-blue-950">
-            Our Plans
+            Our Offerings
           </h2>
           <p className="regular-18 !leading-[26px] max-w-md">Our diverse healthcare products are tailored to every Health and budget need.</p>
         </div>

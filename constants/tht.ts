@@ -75,11 +75,11 @@ export const NAV_LINKS = [
 
 // SLIDE SECTION
 export const SLIDES = [
-  "/images/tht/slides/slide-1.svg",
-  "/images/tht/slides/slide-2.svg",
-  "/images/tht/slides/slide-3.svg",
-  "/images/tht/slides/slide-4.svg",
-  "/images/tht/slides/slide-5.svg",
+  "/images/tht/slides/slide-1.png",
+  "/images/tht/slides/slide-2.png",
+  "/images/tht/slides/slide-3.png",
+  "/images/tht/slides/slide-4.png",
+  "/images/tht/slides/slide-5.png",
 ];
 
 // FEATURES SECTION
