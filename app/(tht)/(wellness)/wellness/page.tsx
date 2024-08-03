@@ -11,12 +11,6 @@ const WellnessPage = () => {
         <div className="flex-none w-full md:w-1/3 space-y-3">
           <h1 className="bold-48 text-blue-950">Our Wellness Offering</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">Bespoke well-being solutions tailored to your employees' wellness needs.</p>
-          <Link href="/book-session">
-            <Button size="lg" className="mt-4 gap-2">
-              Get Started
-              <ArrowRight size={16} />
-            </Button>
-          </Link>
         </div>
         <div className="flex-1 w-full">
           <Image src="/images/tht/wellness-banner.png" alt="Wellness" width={697} height={370} className="w-full object-contain" />
