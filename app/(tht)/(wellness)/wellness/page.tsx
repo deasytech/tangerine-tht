@@ -72,7 +72,7 @@ const WellnessPage = () => {
             key={5}
             bgColor="bg-green-700"
             subTitle="wellness offerings"
-            title="Onsite health talks"
+            title="Health talks"
           />
           <WellnessCard
             key={6}

@@ -19,7 +19,6 @@ const SlugPage = ({ params }: ParamsProps) => {
           <p className="uppercase text-sm font-semibold text-generic-800 mt-8">{post?.category || "world asthma day"}</p>
           <h1 className="bold-48 text-generic-950 !font-gilroy-medium">{post?.title || "International Toothache Day"}</h1>
           <p className="text-base text-generic-800 !font-gilroy-regular">The prevalence of asthma and allergic rhinitis in Nigeria is high with variabilities across regions and age groups. The number of persons with clinical asthma in Nigeria (approximately 13 million) ranks among the highest in Africa.</p>
-          <p className="text-base text-generic-800 !font-gilroy-regular">{post?.date || "3rd May 2022, 5 mins"}</p>
         </div>
         <div className="w-full h-[567px] relative my-8">
           <Image
@@ -65,7 +64,6 @@ const SlugPage = ({ params }: ParamsProps) => {
               category={post.category}
               title={post.title}
               slug={post.slug}
-              date={post.date}
             />
           )}
         </div>

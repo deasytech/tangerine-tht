@@ -39,7 +39,6 @@ const BlogPage = () => {
               category={post.category}
               title={post.title}
               slug={post.slug}
-              date={post.date}
             />
           )}
         </div>

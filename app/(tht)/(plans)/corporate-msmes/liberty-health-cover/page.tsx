@@ -40,6 +40,7 @@ const Page = () => {
               key={item.name}
               name={item.name}
               desc={item.desc}
+              isCompare={false}
             />
           )}
         </div>

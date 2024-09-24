@@ -10,7 +10,7 @@ const JoinProviderNetworkPage = () => {
         <GoBackButton />
       </div>
 
-      <div className="flex justify-between items-center gap-32">
+      <div className="flex justify-between items-center gap-32 mb-10">
         <Image
           src="/images/tht/join-provider-network-banner.png"
           alt="network provider"
